@@ -10,4 +10,4 @@ RUN apk add --update \
 	&& pip install -r requirements.txt \
 	&& rm -rf /var/cache/apk/*
 
-CMD ["python", "app.py"]
+CMD ["python", "sub.py"]
